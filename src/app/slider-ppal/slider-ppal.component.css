@@ -1,0 +1,11 @@
+.newss {
+    padding-top: 250px;
+    padding-bottom: 70px;
+}
+
+.wrappers {
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+}

@@ -1,0 +1,68 @@
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #252932;
+}
+
+header .logo {
+    color: #f2f2f2;
+    font-size: 30px;
+    line-height: 150px;
+    float: left;
+}
+
+header .login {
+    color: #f2f2f2;
+    font-size: 30px;
+    line-height: 150px;
+    float: right;
+}
+
+.header-a {
+    text-decoration: none !important;
+    color: #f2f2f2 !important;
+}
+
+.fixed {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}
+
+.wrapperh {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    margin-bottom: 20px;
+    line-height: 70px;
+}
+
+.wrappern {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #252932 !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navb:hover {
+    border-left: 1px solid #252932;
+    border-right: 1px solid #252932;
+}
