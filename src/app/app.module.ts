@@ -8,6 +8,12 @@ import { SliderPpalComponent } from './slider-ppal/slider-ppal.component';
 import { FooterPpalComponent } from './footer-ppal/footer-ppal.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+import { HomeInitComponent } from './home-init/home-init.component';
+import { QSPageComponent } from './qspage/qspage.component';
+import { NPageComponent } from './npage/npage.component';
+import { CoPageComponent } from './co-page/co-page.component';
+import { AppPageComponent } from './app-page/app-page.component';
+import { CuPageComponent } from './cu-page/cu-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
     SliderPpalComponent,
     FooterPpalComponent,
     LoginRegisterComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    HomeInitComponent,
+    QSPageComponent,
+    NPageComponent,
+    CoPageComponent,
+    AppPageComponent,
+    CuPageComponent
   ],
   imports: [
     BrowserModule,

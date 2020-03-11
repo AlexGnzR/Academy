@@ -12,15 +12,19 @@ export class HeaderPpalComponent implements OnInit {
   logintitle = 'ENTRA / UNETE';
 
   /* NAV TITLES */
+  iniciotitle = 'INICIO';
   quienestitle = 'QUIENES SOMOS';
   cursostitle = 'CURSOS';
   noticiastitle = 'NOTICIAS';
   contactotitle = 'CONTACTO';
   apptitle = 'APP';
 
+ 
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

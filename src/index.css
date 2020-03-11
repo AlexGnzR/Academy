@@ -1,10 +1,10 @@
 * {
-    margin: 0px;
-    padding: 0px;
     font-family: 'Arial Narrow';
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background: #616161;
     color: #ffffff;
 }

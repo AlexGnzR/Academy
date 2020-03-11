@@ -1,68 +1,74 @@
-header {
-    width: 100%;
-    overflow: hidden;
-    background: #252932;
-}
-
-header .logo {
-    color: #f2f2f2;
-    font-size: 30px;
-    line-height: 150px;
-    float: left;
-}
-
-header .login {
-    color: #f2f2f2;
-    font-size: 30px;
-    line-height: 150px;
-    float: right;
-}
-
-.header-a {
-    text-decoration: none !important;
-    color: #f2f2f2 !important;
-}
-
-.fixed {
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-}
-
-.wrapperh {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    overflow: hidden;
-    background: #ffffff;
-    margin-bottom: 20px;
-    line-height: 70px;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
 }
 
-.wrappern {
+.flexx {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-nav a {
-    display: inline-block;
-    text-decoration: none !important;
-    padding-left: 40px;
-    padding-right: 40px;
-    color: #252932 !important;
-    font-size: 20px;
+nav.black {
+    background: #252932;
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav .logo {
+    margin-right: auto;
+}
+
+nav .logo img {
+    height: 80px;
+    transition: .5s;
+}
+
+nav.black .logo img {
+    height: 60px;
+}
+
+nav .login {
+    margin-left: auto;
+}
+
+nav .login a {
+    line-height: 80px;
+    transition: .5s;
+    text-decoration: none;
+    color: #ffffff;
     font-weight: bold;
 }
 
-.navb:hover {
-    border-left: 1px solid #252932;
-    border-right: 1px solid #252932;
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #4d4d4d;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: rgb(218, 122, 33);
+    color: #fff;
+    font-weight: bold;
 }
