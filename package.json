@@ -1,6 +1,6 @@
 {
     "name": "academia-opos-online",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -24,7 +24,8 @@
         "jquery": "^3.4.1",
         "rxjs": "~6.5.4",
         "tslib": "^1.10.0",
-        "zone.js": "~0.10.2"
+        "zone.js": "~0.10.2",
+        "mongoose": "5.9.4"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "~0.900.3",
